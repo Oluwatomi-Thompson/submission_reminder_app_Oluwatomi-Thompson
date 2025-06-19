@@ -44,19 +44,6 @@ bash copilot_shell_script.sh
 
 After that, enter the new assignment name when asked and the app will change the config flle and recheck for non-submissions.
 
-## Project Structure
-
-submission_reminder_<yourName>/
-├── app/
-│   └── reminder.sh          # Displays non-submissions
-├── modules/
-│   └── functions.sh         # Logic to read and filter student data
-├── assets/
-│   └── submissions.txt      # CSV-style list of students and their status
-├── config/
-│   └── config.env           # Holds assignment name and due date
-├── startup.sh               # Entry script to start the reminder app
-
 ## Contributors
 
 Developed by: Oluwatomi Thompson
